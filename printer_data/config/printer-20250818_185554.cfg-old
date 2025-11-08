@@ -1,7 +1,3 @@
-#[include Quattro Box/Base/mmu.cfg]
-#[include Quattro Box/Optional/client_macros.cfg]
-#[include Quattro Box/Addons/mmu_eject_buttons.cfg]
-#[include Quattro Box/addons/blobifier.cfg]
 [include mainsail.cfg]
 
 [include sample-bigtreetech-ebb-sb-rp2040-canbus-v1.0.cfg]
@@ -577,7 +573,7 @@ gcode:
 #*# pid_kd = 282.856
 #*#
 #*# [probe]
-#*# z_offset = -0.800
+#*# z_offset = -0.750
 #*#
 #*# [bed_mesh default]
 #*# version = 1
@@ -601,9 +597,9 @@ gcode:
 #*#
 #*# [input_shaper]
 #*# shaper_type_x = 3hump_ei
-#*# shaper_freq_x = 89.0
-#*# shaper_type_y = ei
-#*# shaper_freq_y = 43.6
+#*# shaper_freq_x = 86.6
+#*# shaper_type_y = mzv
+#*# shaper_freq_y = 41.2
 #*#
 #*# [bed_mesh 1]
 #*# version = 1
